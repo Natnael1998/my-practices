@@ -8,21 +8,66 @@ input{
    border-color: blue;
     padding: 10px;
 }
-.navbar{
+.m{
     border: 2px solid red;
     width: 100%;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
     
+    
+    
 }
+.mb{
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
 #n{
     border: 2px dotted ;
 }
 form{
-    background-color:darkseagreen;
+    background-color:rgb(143, 188, 186);
     padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+#l{
+    font-size: large;
+}
+body{
+    font-family:courier;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(143, 188, 186) ;
+    border-color: black;
+    font-size: large;
+    font-family: courier;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+
+
+}
+.bt{
+    width: 20px;
+}
+#gt{
+    height: 80px;
+    
+    
+}
+.git{
+    display: flex;
+    justify-content: center;
 }
